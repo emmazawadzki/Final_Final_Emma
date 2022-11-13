@@ -12,8 +12,8 @@ public class TextPartieFinie : MonoBehaviour
     
     public void Update(){
         //Affichage des scores de la partie joué
-        textComponent1.text = "Sur " + FantomeCount.nbFantome[2].ToString() + " Fantome :";
-        textComponent2.text = "     " + FantomeCount.nbFantome[0].ToString() + " Fantome ont été tué";
+        textComponent1.text = "Sur " + FantomeCount.nbFantome[2].ToString() + " Fantômes :";
+        textComponent2.text = "     " + FantomeCount.nbFantome[0].ToString() + " Fantômes ont été tué";
         textComponent3.text = "     Votre score est de " + FantomeCount.nbFantome[1].ToString() + " points";
     }
 }

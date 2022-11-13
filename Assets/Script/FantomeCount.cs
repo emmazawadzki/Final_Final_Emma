@@ -8,11 +8,11 @@ public class FantomeCount : MonoBehaviour{
 
     void Start(){
         //Attributions des valeurs pour les différentes listes
-        nom.Add("Fantome Tué");
+        nom.Add("Fantôme(s) Tué");
         nbFantome.Add(0);
         nom.Add("Point Total");
         nbFantome.Add(0);
-        nom.Add("Fantome Total");
+        nom.Add("Fantôme(s) Total");
         nbFantome.Add(0);
     }
 
